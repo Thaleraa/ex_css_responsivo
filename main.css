@@ -139,7 +139,56 @@ section .container {
 }
 
 @media screen and (max-width: 767px) {
-.produtos .sapato {
+.container {
     display: block;
+    max-width: 90%;
 }
+
+section .container {
+    display: block;
+    margin-bottom: 56px;
+}
+
+.sapato {
+    display: inline-block;
+    margin-right: 15px;
+    width: calc(45% - 5px);
+    text-align: center;
+    font-size: 16px;
+}
+
+.produtos button {
+    margin-top: 24px;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: cornflowerblue;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 24px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        display: block;
+        max-width: 90%;
+    }
+
+    section .container {
+        display: block;
+        margin-bottom: 56px;
+    }
+
+    .sapato {
+        display: inline-block;
+        margin-right: 15px;
+        width: calc(45% - 5px);
+        text-align: center;
+        font-size: 16px;
+    }
 }
