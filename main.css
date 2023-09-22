@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto'; sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 header, h1 {
-    padding: 24PX;
+    padding: 24px;
     background-color: cornflowerblue;
     color: #fff;
 }
@@ -74,21 +74,27 @@ section .container {
     font-size: 18px;
 }
 
-.produtos h2 {
+.titulo-produtos {
     color: cornflowerblue;
     border-bottom: 3px cornflowerblue solid;
     margin-bottom: 48px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .produtos img {
     height: 320px;
-    max-width: 300px; 
+    max-width: 320px; 
     width: 100%;
 }
 
-.produtos .sapato {
-    display: inline-flex;
-    
+.sapato {
+    display: inline-block;
+    margin-right: 15px;
+    width: calc(25% - 20px);
+    text-align: center;
+    font-size: 16px;
 }
 
 .imagens img {
@@ -99,8 +105,24 @@ section .container {
     text-decoration: none;
 }
 
+.produtos h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.produtos p {
+    color: black;
+    margin-top: 12px;
+}
+
+.produtos-container {
+    text-align: center;
+}
+
+
 .produtos button {
-    margin-top: 16px;
+    margin-top: 48px;
     border-radius: 4px;
     padding: 6px;
     background-color: cornflowerblue;
@@ -110,10 +132,14 @@ section .container {
     font-weight: bold;
     font-size: 18px;
     border: none;
-    margin-right: 8px;
 }
 
 .produtos h3 {
     margin-top: 48px;
 }
 
+@media screen and (max-width: 767px) {
+.produtos .sapato {
+    display: block;
+}
+}
