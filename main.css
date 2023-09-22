@@ -144,6 +144,12 @@ section .container {
     max-width: 90%;
 }
 
+.sobre-a-loja img {
+    height: 320px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
 section .container {
     display: block;
     margin-bottom: 56px;
@@ -184,11 +190,31 @@ section .container {
         margin-bottom: 56px;
     }
 
+    .sobre-a-loja img {
+        height: 320px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
     .sapato {
         display: inline-block;
         margin-right: 15px;
         width: calc(45% - 5px);
         text-align: center;
         font-size: 16px;
+    }
+
+    .produtos button {
+        margin-top: 24px;
+        border-radius: 4px;
+        padding: 6px;
+        background-color: cornflowerblue;
+        color: #fff;
+        width: 100%;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        margin-bottom: 24px;
     }
 }
