@@ -142,6 +142,7 @@ section .container {
 .container {
     display: block;
     max-width: 90%;
+    align-items: center;
 }
 
 .sobre-a-loja img {
@@ -156,8 +157,8 @@ section .container {
 }
 
 .produtos img {
-    height: 280px;
-    max-width: 280px; 
+    height: 320px;
+    max-width: 320px; 
     width: 100%;
 }
 
@@ -167,6 +168,7 @@ section .container {
     width: calc(50% - 5px);
     text-align: center;
     font-size: 16px;
+    margin-left: 150px;
 }
 
 .produtos button {
