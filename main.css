@@ -155,10 +155,16 @@ section .container {
     margin-bottom: 56px;
 }
 
+.produtos img {
+    height: 280px;
+    max-width: 280px; 
+    width: 100%;
+}
+
 .sapato {
     display: inline-block;
     margin-right: 15px;
-    width: calc(45% - 5px);
+    width: calc(50% - 5px);
     text-align: center;
     font-size: 16px;
 }
